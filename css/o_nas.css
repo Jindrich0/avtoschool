@@ -1,0 +1,361 @@
+@font-face {
+	font-family: Micra;
+	src: url(../fonts/Micra.ttf);
+}
+@font-face {
+	font-family: Jura;
+	src: url(../fonts/Jura.ttf);
+}
+html {
+    background-color: #F1F0EB;
+    font-family: Micra;
+}
+
+body {
+    max-width: 1820px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header {
+    display: flex;
+    top: 10px;
+    z-index: 1;
+    position: sticky;
+    justify-content: space-between;
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.header_button a {
+    color: black;
+    text-decoration: none;
+    border-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.header_button a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+.li_a {
+    font-family: Jura;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s
+}
+
+.li_a:hover {
+    color: rgb(73, 73, 73);
+}
+
+.Upper_head {
+    margin-top: 5%;
+}
+
+.head {
+    max-width: 1200px;
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: 0.38px;
+}
+
+.Upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocks_upper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.upper_block_one {
+    position: relative;
+    margin-left: 230px;
+    padding: 20px 40px 20px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 54px -12px rgba(16, 24, 40, 0.14);
+    border-radius: 30px;
+}
+
+.upper_one {
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 60px;
+    color: #000000;
+}
+
+.upper_one_two {
+    font-style: normal;
+    font-family: Jura;
+    font-weight: 500;
+    width: 466px;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.upper_two {
+    font-weight: 500;
+    width: 380px;
+    font-size: 23px;
+    padding-bottom: 120px;
+    color: #000000;
+}
+
+.upper_two_two {
+    font-style: normal;
+    font-family: Jura;
+    font-weight: 500;
+    width: 380px;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.upper_three {
+    font-weight: 5;
+    font-size: 23px;
+    padding-bottom: 60px;
+    color: #000000;
+}
+
+.upper_three_two {
+    font-style: normal;
+    font-family: Jura;
+    font-weight: 500;
+    width: 928.03px;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.upper_block_two {
+    position: relative;
+    margin-left: 20px;
+    padding: 20px 40px 20px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 54px -12px rgba(16, 24, 40, 0.14);
+    border-radius: 30px;
+}
+
+.upper_block_three {
+    position: relative;
+    margin-left: 230px;
+    margin-top: 40px;
+    padding: 20px 40px 20px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 54px -12px rgba(16, 24, 40, 0.14);
+    border-radius: 30px;
+}
+
+.how_we_teach {
+    margin-bottom: 122px;
+}
+
+.teach_heading {
+    display: flex;
+    margin-top: 230px;
+    align-items: center;
+    
+    margin-bottom: 90px;
+}
+
+.teach_heading_one {
+    font-family: Jura;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 605px;
+    margin-right: 320px;
+}
+
+.teach_heading_two {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.teach_content {
+    display: flex;
+    justify-content: center;
+}
+
+.teach_content_text {
+    background: #FFFFFF;
+    margin-left: 50px;
+    border-radius: 16px;
+    width: 720px;
+    padding: 40px;
+}
+
+.teach_text_one {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 5;
+    font-size: 23px;
+}
+
+.teach_text_two {
+    font-family: Jura;
+    font-style: normal;
+    width: 655px;
+    font-weight: 5;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 60px 0 120px 0;
+}
+
+.teach_text_three {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.teach_text_four {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 5;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer {
+    padding-top: 55px;
+    margin-bottom: 40px;
+}
+
+.footer_logo_text {
+    font-family: Micra;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.footer_logo_content {
+    font-family: Jura;
+    width: 292.59px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer_logo {
+    padding-bottom: 150px;
+}
+
+.foter_links a {
+    font-family: Jura;
+    text-decoration: none;
+    color: black;
+    padding-right: 8px;
+    font-size: 20px;
+    transition: all 0.3s
+}
+
+.foter_links a:hover {
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.foter_data_one {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.foter_data_two {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: 0.38px;
+    color: #000000;
+}
+
+.foter_data_three {
+    font-family: Jura;
+    font-style: normal;
+    width: 250px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+}
+
+.foter_data_four {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.foter_data_five {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.footer_buton {
+    margin-top: 50px;
+}
+
+.footer_buton a {
+    color: black;
+    text-decoration: none;
+    border-color: #000000;
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 28px 50px 28px 50px;
+    transition: all 0.3s
+}
+
+.footer_buton a:hover {
+    background-color: #000000;
+    color: white;
+}

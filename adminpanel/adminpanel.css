@@ -1,0 +1,99 @@
+*{
+    font-family: glavnik;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f0eb;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+@font-face {
+    font-family: glavnik;
+    src: url("fonts/glavnik.ttf");
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 90%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.logo{
+    font-size: 30px;
+}
+.headerItem a{
+    color: #9A1919;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.navItem{
+    padding: 20px;
+}
+.navItem:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
+
+.tableForm{
+    margin-top: 2%;
+}
+table{
+    width: 100%;
+    margin-top: 1%;
+    background-color: white;
+    padding: 10px 0 10px 50px;
+    border-radius: 20px;
+    box-shadow: 0 32px 54px -12px rgba(16, 24, 40, 0.14);
+}
+
+table input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+table textarea{
+    height: 60px;
+    border: none;
+    width: 100%;
+}
+td{
+    padding: 10px;
+}
+table textarea:hover{
+    background-color: rgba(0,0,0,0.1);
+    font-size: 14px;
+}
+table input:hover{
+    background-color: rgba(0,0,0,0.1);
+    font-size: 15px;
+}
+.tableBtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.tableBtn:hover{
+    transform: scale(1.2);
+}

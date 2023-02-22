@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Micra;
+    src: url(../fonts/Micra.ttf);
+}
+
+@font-face {
+    font-family: Jura;
+    src: url(../fonts/Jura.ttf);
+}
+
+.text_obuchenie {
+    font-family: Micra;
+    font-style: normal;
+    width: 1000px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: #2F2F2F;
+}
+
+.obuc_cifri {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.obuc_text {
+    font-family: Jura;
+    font-style: normal;
+    width: 600px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F;
+    margin-left: 30px;
+}
+
+.block_uslugi {
+    background: #FFFFFF;
+    box-shadow: 0px 32px 54px -12px rgba(16, 24, 40, 0.14);
+    border-radius: 20px;
+    padding: 10px;
+    width: 1602px;
+    height: 383px;
+    margin-top: 137px;
+    margin-left: 5%;
+    margin-bottom: 300px;
+}
+
+.uslugi_text {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 49px;
+    color: #2F2F2F;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.linia {
+    width: 100px;
+    height: 2px;
+    left: 419px;
+    top: 1094px;
+    background: #F96261;
+    border-radius: 0px;
+}
+
+.uslugi_content {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #2F2F2F;
+    text-align: left;
+}
+
+.trenirovka_text {
+    width: 624px;
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 5;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F;
+}
+
+.stoimost_text_one {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 500;
+    width: 400px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2F2F2F;
+}
+
+.stoimost_text_two {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 5;
+    font-size: 15px;
+    line-height: 21px;
+    width: 250px;
+    color: #696969;
+}
+
+.stoimost_text_three {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 5;
+    font-size: 60px;
+    line-height: 46px;
+    color: #F96261;
+}
+
+.stoimost_button {
+    margin-top: 60px;
+}
+
+.stoimost_button a {
+    color: #F96261;
+    text-decoration: none;
+    border: 1px solid #F96261;
+    border-radius: 10px;
+    padding: 10px 30px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.stoimost_button a:hover {
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+}
+
+.stoimost_time_block {
+
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 54px -12px rgba(16, 24, 40, 0.14);
+    border-radius: 10px;
+}
+
+.time_text {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #696969;
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+.time_text_price {
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #F96261;
+    margin: 0;
+}
+
+.time {
+    font-family: Micra;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2F2F2F;
+}

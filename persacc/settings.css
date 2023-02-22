@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    width: 1920px;
+    height: 1299px;
+
+    background: #F1F0EB;
+}
+
+.info_left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 100px 80px;
+    gap: 18px;
+    position: absolute;
+    width: 332px;
+    height: 386px;
+    left: 95px;
+    top: 223px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.info_right {
+    position: relative;
+    width: 1194px;
+    height: 580px;
+    left: 485px;
+    top: 223px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+input {
+    border-radius: 10px;
+    width: 544px;
+    height: 41px;
+    left: 823px;
+    top: 481px;
+}
